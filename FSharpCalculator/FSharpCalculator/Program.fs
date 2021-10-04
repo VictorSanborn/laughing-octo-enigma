@@ -2,8 +2,7 @@
 
 open System
 
-[<EntryPoint>]
-let main argv =
+let fib x =
     let n = Console.ReadLine()
     let mutable i = 1
     let mutable j = 1
@@ -15,14 +14,12 @@ let main argv =
         i <- j 
         j <- c
 
+[<EntryPoint>]
+let main argv = 
 
-  
-    let name = Console.ReadLine()
-
-    let add x y = x + y
-
-    match name with
-    //| "+" -> printfn "%i" add 1 1
-    | "Name" -> printfn "Hello %s to Hacktoberfest!" name
+    match Console.ReadLine() with
+    | "Fib" -> fib 1
+    | "Welcome" -> printfn "Welcome to Hacktoberfest!"
 
     0 // return an integer exit code
+
