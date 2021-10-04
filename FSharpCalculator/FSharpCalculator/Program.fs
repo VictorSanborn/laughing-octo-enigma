@@ -16,5 +16,13 @@ let main argv =
         j <- c
 
 
-    printfn "Hello Hacktoberfest!"
+  
+    let name = Console.ReadLine()
+
+    let add x y = x + y
+
+    match name with
+    //| "+" -> printfn "%i" add 1 1
+    | "Name" -> printfn "Hello %s to Hacktoberfest!" name
+
     0 // return an integer exit code
