@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gHgcf+HU8EF4A3/Prg0HWHRSLZz7jYKLetWxpzUlxQDywuvi5DwEV247A06oZuUuzLD/WOF9kI8rqeLi0G7wqA==",
+  "success": true,
+  "projectFilePath": "C:\\Terminal\\laughing-octo-enigma\\FSharpCalculator\\FSharpCalculator\\FSharpCalculator.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\victor.sanborn\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
