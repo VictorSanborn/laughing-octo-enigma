@@ -3,6 +3,7 @@
 open System
 
 let square y = 4 * 4
+let negative x y = x - y
 
 let fib x =
     let n = Console.ReadLine()
@@ -23,6 +24,7 @@ let main argv =
     | "Fib" -> fib 1
     | "Welcome" -> printfn "Welcome to Hacktoberfest!"
     | "Square" -> printfn "%i" (square 4)
+    | "Negative" -> printfn "%i" (negative 4 2)
 
     0 // return an integer exit code
 
