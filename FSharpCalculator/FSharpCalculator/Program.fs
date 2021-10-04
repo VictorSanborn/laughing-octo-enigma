@@ -2,6 +2,8 @@
 
 open System
 
+let square y = 4 * 4
+
 let fib x =
     let n = Console.ReadLine()
     let mutable i = 1
@@ -20,6 +22,7 @@ let main argv =
     match Console.ReadLine() with
     | "Fib" -> fib 1
     | "Welcome" -> printfn "Welcome to Hacktoberfest!"
+    | "Square" -> printfn "%i" (square 4)
 
     0 // return an integer exit code
 

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gHgcf+HU8EF4A3/Prg0HWHRSLZz7jYKLetWxpzUlxQDywuvi5DwEV247A06oZuUuzLD/WOF9kI8rqeLi0G7wqA==",
+  "dgSpecHash": "1rrQnlwTageuKAs9+vkSd3w8D02tr4mOWbZhYEd79u0xgnSwTLXdKgtTospWtkR0DLZZoa5JyOEw6i7PVpsIYA==",
   "success": true,
-  "projectFilePath": "C:\\Terminal\\laughing-octo-enigma\\FSharpCalculator\\FSharpCalculator\\FSharpCalculator.fsproj",
+  "projectFilePath": "C:\\hacktoberfest\\laughing-octo-enigma\\FSharpCalculator\\FSharpCalculator\\FSharpCalculator.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\victor.sanborn\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512"
+    "C:\\Users\\mattias.eriksson\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
